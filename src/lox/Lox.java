@@ -18,6 +18,7 @@ public class Lox {
             runFile(args[0]);
         } else {
             runPrompt();
+
         }
     }
 
@@ -39,6 +40,7 @@ public class Lox {
             if (line == null) break;
             run(line);
             hadError = false;
+
         }
     }
 
